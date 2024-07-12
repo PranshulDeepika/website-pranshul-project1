@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 3.5rem;
+    color: #66bfbf;
+    font-family: "Sacramento", cursive;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    color: #66bfbf;
+}
+
+.top-container{
+    width: 100%;
+    height: 776.38px;
+    background-color: #e4f9f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    border-bottom: 2px solid #3333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+p{
+    width: 40%;
+    color: #333;
+    font-family: "Merriweather", serif;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 100px 300px 300px;
+    grid-template-columns: 400px 400px;
+}
+
+
+
+.grid1{
+    grid-area: 1/1/2/3;
+    text-align: center;
+}
+
+.grid3,.grid5,.grid2,.grid4{
+    padding: 20px;
+    }
+
+
+#cat,#hot{
+    width: 100%;
+    text-align: left;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.outer-flex{
+    display: flex;
+    justify-content: center;
+}
+
+#text-align{
+    display: flex;
+    justify-content: center;
+}
+
+#text-align>p{
+    width: 70% ;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+}
+
+.margin>h1{
+    font-weight: 400;
+}
+
+.margin>h2{
+    font-weight: 900;
+}
+.flex-bottom{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.margin{
+    margin: 20px;
+}
+
+
+.btn{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffff;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    background-color: #11cdd4;;
+}
+
+.btn:hover{
+    background-color: #66bfbf;
+    box-shadow: 2px 2px 15px #66bfbf;
+}
+
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: #11cdd4;
+}
+
+.social-media{
+    
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+a{
+    margin: 10px 20px;
+    text-decoration: none;
+    color: #11999e;
+    font-family: "Montserrat", sans-serif; ;
+}
+
+a:hover{
+    color: #ffff;
+}
